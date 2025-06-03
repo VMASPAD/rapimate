@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "RaPiMATE",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -10,6 +10,8 @@
     "tauri": "tauri"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^5.31.8",
+    "@libsql/client": "^0.15.8",
     "@radix-ui/react-slot": "^1.2.3",
     "@tailwindcss/vite": "^4.1.7",
     "@tauri-apps/api": "^2",
